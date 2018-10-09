@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SpeakerPage.qml</file>
+        <file>TalkPage.qml</file>
+        <file>JSONModel.qml</file>
+        <file>LivePage.qml</file>
+        <file>TalkTile.qml</file>
+        <file>hackerkiste-logo.png</file>
+        <file>data/barcamps.json</file>
+        <file>data/current.json</file>
+        <file>data/events.json</file>
+        <file>data/hackathons.json</file>
+        <file>data/speakers.json</file>
+        <file>data/talks.json</file>
+    </qresource>
+</RCC>
