@@ -1,4 +1,4 @@
-TEMPLATE = hackerkisten-app
+TARGET = hackerkisten-app
 
 QT += quick quickcontrols2
 CONFIG += c++11
