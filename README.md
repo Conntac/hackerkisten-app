@@ -46,6 +46,25 @@ Natürlich haben wir noch viele weitere Ideen, die nur darauf warten implementie
 * Ampel-Anzeige - Gibt Auskunft darüber, wie gut ein Event besucht sein wird
 * Hintergrundinformationen über die Sponsoren, Veranstalter, etc.
 
+## Das Backend
+
+Der Server wurde mit den Python-Versionen `3.6.6` & `3.7.0` getestet und sollte mit allen Python-Versionen `>= 3` funktionieren.  
+Neben den schon erwähnten Libraries `flask` und `BeatifulSoup` wird `requests` benötigt.  
+So startet man den Server:  
+```bash
+export FLASK_APP=server.py
+flask run
+```
+
+Folgende Endpunkte sind vorhanden:
+* `/speakers`
+* `/talks`
+* `/events`
+* `/events/current`
+* `/hackathons`
+* `/barcamps`
+
+Für Beispielinstanzen kann man sich die JSON-Dateien im Ordner `app/data` angucken.
 
 ## Mach mit!
 Gerne kannst du dich an dem Projekt beteiligen. Wir freuen uns über neue Ideen und motivierte Programmierer. Wer weiß, vielleicht ist ja schon im nächsten Jahr die Hackerkisten-App produktiv im Einsatz. 💪
